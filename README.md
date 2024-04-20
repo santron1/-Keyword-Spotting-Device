@@ -2,7 +2,7 @@
 ## Edge Impulse Custom Inference Code for ESP32 DevKit
 
 ### Introduction
-This project utilizes the Edge Impulse platform for machine learning inference, customized to work with the ESP32 DevKit microcontroller. While Edge Impulse primarily supports powerful microprocessors like ESP32-CAM and Arduino Nano 33 BLE, I successfully adapted the code to function with the ESP32 DevKit. This adaptation process involved significant modifications to the Edge Impulse library, spanning a period of 2.5 years.
+This project utilizes the Edge Impulse platform for machine learning inference, customized to work with the ESP32 DevKit microcontroller. While Edge Impulse primarily supports powerful microprocessors like ESP32-CAM and Arduino Nano 33 BLE, I successfully adapted the code to function with the ESP32 DevKit. This adaptation process involved significant modifications to the Edge Impulse library, spanning a period of 2.5 months.
 
 ### Features
 - Utilizes the Edge Impulse platform for machine learning inference.
