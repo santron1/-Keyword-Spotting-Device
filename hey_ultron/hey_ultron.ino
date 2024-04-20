@@ -6,10 +6,10 @@
 #include "driver/gpio.h"
 #include "driver/i2s.h"
 
-/** Define the GPIO pin connected to the ESP32's built-in LED */
+
 #define LED_GPIO_PIN    GPIO_NUM_2
 
-/** Audio buffers, pointers and selectors */
+
 typedef struct {
     int16_t *buffer;
     uint8_t buf_ready;
@@ -23,9 +23,9 @@ static signed short sampleBuffer[sample_buffer_size];
 static bool debug_nn = false;
 static bool record_status = true;
 
-// Define LED control variables
-bool led_on = false; // Flag to indicate whether LED is on
-unsigned long led_start_time = 0; // Variable to store the start time of LED activation
+
+bool led_on = false; 
+unsigned long led_start_time = 0;
 
 void setup() {
     Serial.begin(115200);
@@ -48,7 +48,7 @@ void setup() {
         return;
     }
 
-    // Initialize the GPIO pin connected to the LED as an output
+    
     gpio_pad_select_gpio(LED_GPIO_PIN);
     gpio_set_direction(LED_GPIO_PIN, GPIO_MODE_OUTPUT);
 
@@ -94,7 +94,7 @@ void loop() {
 
     // Check if the LED has been on for 3 seconds
     if (led_on && millis() - led_start_time >= 3000) {
-        // Turn off the built-in LED and reset the timer
+        
         led_on = false;
         gpio_set_level(LED_GPIO_PIN, 0);
     }
