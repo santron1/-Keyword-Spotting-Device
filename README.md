@@ -12,7 +12,7 @@ This project utilizes the Edge Impulse platform for machine learning inference, 
 
 ### Development Journey
 - **Initial Challenges:** The project began with challenges in adapting Edge Impulse's existing codebase to support the ESP32 DevKit. Limited resources and documentation posed initial hurdles.
-- **Continuous Learning:** Over the course of 2.5 years, I engaged in continuous learning and experimentation to understand and modify the Edge Impulse library effectively.
+- **Continuous Learning:** Over the course of 2.5 months, I engaged in continuous learning and experimentation to understand and modify the Edge Impulse library effectively.
 - **Optimization and Fine-tuning:** Through iterative optimization and fine-tuning, I improved the performance and accuracy of the machine learning models, achieving a commendable accuracy rate of 90%.
 - **Collaborative Efforts:** While I sought assistance from resources like ChatGPT for guidance and problem-solving, the bulk of the development effort was driven by my individual commitment and perseverance.
 
